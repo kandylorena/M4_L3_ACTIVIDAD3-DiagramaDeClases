@@ -40,3 +40,9 @@ Para garantizar la integridad del estado de los objetos y evitar alteraciones in
 * **Agregación (Relación Débil):** Conecta a `Alumno` con `Asignatura`. Los alumnos se inscriben y pertenecen a una materia. Es una relación débil: si la asignatura se cancela o se elimina de la planificación, los alumnos no desaparecen del sistema; sus perfiles y registros generales permanecen intactos.
 * **Composición (Relación Fuerte):** Existe estrictamente entre `Asignatura` y `Evaluación`. Una evaluación (un examen parcial o un test) no tiene sentido de existir de manera aislada en el sistema; vive única y exclusivamente dentro del contexto de una materia. Definí que sus ciclos de vida estén íntimamente ligados: si la `Asignatura` se elimina, todas sus `Evaluaciones` se destruyen en cascada de forma automática.
 * **Modelado del Cronograma:** Para armar la agenda escolar diaria, las entidades de `Aula` y `Asignatura` se vinculan con la clase `Horario`, determinando con precisión matemática *qué* materia se imparte, *dónde* (en qué espacio físico) y *en qué momento* exacto.
+
+```
+Enlace git 
+https://github.com/kandylorena/M4_L3_ACTIVIDAD3-DiagramaDeClases.git
+
+```
